@@ -7,8 +7,6 @@ redirect_from:
   - /resume
 ---
 
-{% include base_path %}
-
 Education
 ======
 * Master of Science in Computer Science, University of Montréal, 2019
@@ -41,7 +39,5 @@ Skills
   
 Projects
 ======
-  <ul>{% for post in site.portfolio %}
-    {% include archive-single.html %}
-  {% endfor %}</ul>
+
   
