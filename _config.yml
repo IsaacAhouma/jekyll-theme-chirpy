@@ -118,18 +118,31 @@ defaults:
         -
           label: Tags
           url: /tabs/tags/
+#   -
+#     scope:
+#       path: categories
+#     values:
+#       location: Category
+#       breadcrumb:
+#         -
+#           label: Home
+#           url: /
+#         -
+#           label: Categories
+#           url: /tabs/categories/
+
   -
     scope:
-      path: categories
+      path: cv
     values:
-      location: Category
+      location: CV
       breadcrumb:
         -
           label: Home
           url: /
         -
-          label: Categories
-          url: /tabs/categories/
+          label: CV
+          url: /tabs/cv/
   -
     scope:
       path: tabs
