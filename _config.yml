@@ -158,6 +158,16 @@ defaults:
       path: assets/data
     values:
       layout: compress
+  
+  # _portfolio
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
 
 
 sass:
