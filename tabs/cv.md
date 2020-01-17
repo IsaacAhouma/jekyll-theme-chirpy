@@ -5,12 +5,9 @@ permalink: /cv/
 author_profile: true
 redirect_from:
   - /resume
-# Curriculum Vitae
-# v2.0
-# https://github.com/cotes2020/jekyll-theme-chirpy
-# © 2019 Isaac Ahouma
-# MIT License
 ---
+
+{% include base_path %}
 
 Education
 ======
@@ -42,4 +39,9 @@ Skills
   * Pytorch
   * Numpy and data science libraries such as Pandas, Matplotlib and Scikit-learn.
   
+Projects
+======
+  <ul>{% for post in site.portfolio %}
+    {% include archive-single.html %}
+  {% endfor %}</ul>
   
