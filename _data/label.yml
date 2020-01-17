@@ -7,7 +7,7 @@
 tabs:
 #   - { name: "Home", icon: 'fas fa-home' }
   - { name: "Home", path: tabs, url: about, icon: 'fas fa-home'}
-  - { name: "CV", path: tabs, url: cv, icon: 'fas fa-info'}
+  - { name: "CV", path: tabs, url: cv, icon: 'fas fa-home'}
   - { name: "Portfolio", path: tabs, url: portfolio, icon: 'fas fa-info'}
 #   - { name: "Categories", path: tabs, url: categories, icon: 'fas fa-stream' }
 #   - { name: "Tags", path: tabs, url: tags, icon: 'fas fa-tags' }
