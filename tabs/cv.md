@@ -12,8 +12,6 @@ redirect_from:
 # MIT License
 ---
 
-{% include base_path %}
-
 Education
 ======
 * Master of Science in Computer Science, University of Montréal, 2019
@@ -44,9 +42,4 @@ Skills
   * Pytorch
   * Numpy and data science libraries such as Pandas, Matplotlib and Scikit-learn.
   
-Projects
-======
-  <ul>{% for post in site.portfolio %}
-    {% include archive-single.html %}
-  {% endfor %}</ul>
   
